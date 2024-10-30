@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja" class="has-navbar-fixed-top" id="html">
+  <head id="_header">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <title id="tabtitle">
+      {{ page.title }} | naochan's website
+    </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+{% include header.html%}
+    <br>
+
+{{ content }}
+{% include foother.html %}
+    <script type="text/javascript" src="script.js"></script>
+    <script src="/easteregg.js"></script>
+  </body>
+</html>
