@@ -1,0 +1,56 @@
+    <header>
+      <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/">
+            <h1>Naochan's website</h1>
+          </a>
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="/">
+              home | ホーム
+            </a>
+            <a class="navbar-item" href="/blog/">
+              blog | ブログ
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                about
+              </a>
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href="/about/me/">
+                  about me | 自己紹介
+                </a>
+                <a class="navbar-item" href="/about/website/">
+                  about this site | このサイトについて
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="navbar-end">
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                テーマ変更 | theme
+              </a>
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href="javascript:change_theme('theme-light')">
+                  ライトモード | light
+                </a>
+                <a class="navbar-item" href="javascript:change_theme('theme-dark')">
+                  ダークモード | dark
+                </a>
+                <a class="navbar-item" href="javascript:change_theme('system')">
+                  システムに合わせる | system
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
